@@ -26,14 +26,4 @@ public class ClientController {
     ) {
         return ResponseEntity.ok(clientService.update(updateSdi));
     }
-
-    @PostMapping(value = "changeStatus")
-    public ResponseEntity<Boolean> changeStatus(
-            @RequestBody UpdateSdi updateSdi
-    ) {
-        return ResponseEntity.ok(clientService.update(updateSdi));
-    }
-
-
-
 }

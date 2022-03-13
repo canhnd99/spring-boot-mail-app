@@ -1,3 +1,5 @@
+server:
+  port: 8081
 mailServer:
   host: smtp.gmail.com
   port: 587
