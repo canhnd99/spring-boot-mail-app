@@ -1,0 +1,7 @@
+mailServer:
+  host: smtp.gmail.com
+  port: 587
+  email: mailsender.tutorials.b2a@gmail.com
+  password: Admin@123
+  protocol: smtp
+  isSSL: false
