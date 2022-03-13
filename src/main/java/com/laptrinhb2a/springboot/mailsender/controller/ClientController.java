@@ -33,6 +33,4 @@ public class ClientController {
     ) {
         return ResponseEntity.ok(clientService.update(updateSdi));
     }
-
-
 }
