@@ -26,11 +26,4 @@ public class ClientController {
     ) {
         return ResponseEntity.ok(clientService.update(updateSdi));
     }
-	
-	@PostMapping(value = "delete")
-    public ResponseEntity<Boolean> delete(
-            @RequestBody UpdateSdi updateSdi
-    ) {
-        return ResponseEntity.ok(clientService.update(updateSdi));
-    }
 }
