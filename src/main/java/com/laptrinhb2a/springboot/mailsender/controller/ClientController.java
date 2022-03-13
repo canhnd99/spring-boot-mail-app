@@ -19,11 +19,4 @@ public class ClientController {
     ) {
         return ResponseEntity.ok(clientService.create(clientSdi));
     }
-
-    @PostMapping(value = "update")
-    public ResponseEntity<Boolean> update(
-            @RequestBody UpdateSdi updateSdi
-    ) {
-        return ResponseEntity.ok(clientService.update(updateSdi));
-    }
 }
