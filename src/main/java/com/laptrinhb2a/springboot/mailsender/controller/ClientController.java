@@ -19,7 +19,4 @@ public class ClientController {
     ) {
         return ResponseEntity.ok(clientService.create(clientSdi));
     }
-
-
-
 }
